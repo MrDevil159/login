@@ -1,6 +1,30 @@
+@import url(../font/specimen_files/specimen_stylesheet.css);
+@import url(../font/stylesheet.css);
+@import url(../font2/stylesheet.css);
+@import url(../font2/specimen_files/specimen_stylesheet.css);
+
+@import url(//db.onlinewebfonts.com/c/f17245a6056ac9c51525c4f4dad8c993?family=PCTL9600W00-Regular);
+
 body {
-    background-color: #72B4FF;
+    background: linear-gradient(45deg, rgba(79,153,255,1) 0%, rgba(130,188,255,1) 100%);
+border-right:  25px solid #000;
+border-left:   25px solid  #000;
 }
 input.form-control::placeholder {
     opacity: .5;
+    font-family: 'tw_cen_mt_stdsemi_medium';
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    /* font-weight: 600; */
+
+}
+
+.logfont {
+    color: #4C2225;
+}
+
+.btn {
+    font-family: 'tw_cen_mt_stdsemi_medium';
+    font-size: 1.2rem;
+    letter-spacing: 1px;
 }
